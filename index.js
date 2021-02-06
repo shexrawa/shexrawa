@@ -38,7 +38,7 @@ if (message.content.startsWith("https://discord.gg/")) {
     
   message.author.send(`https://discord.gg/cPg5v3rveU`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("https://discord.gg/cPg5v3rveU").send(
+  client.channels.get("807577604114219018").send(
 `> <:ARBELE_UPUP:791411050238836766> By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
